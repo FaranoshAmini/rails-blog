@@ -1,7 +1,7 @@
 class Post < ApplicationRecord
   belongs_to :author, class_name: 'User', foreign_key: :author_id
-  has_many :likes
-  has_many :comments
+  has_many :likes, foreign_key: 'author_id'
+  has_many :comments, foreign_key: 'author_id'
   after_save :post_counter_update
 
   def post_counter_update
