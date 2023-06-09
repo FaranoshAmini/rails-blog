@@ -6,7 +6,6 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -62,16 +61,6 @@
 - **[Create post]**
 - **[Comment on post]**
 - **[Like posts]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-> Add a link to your deployed project.
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
@@ -91,7 +80,7 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 >  cd my-folder
-  git clone https://github.com/FaranoshAmini/Blog-App.git
+  git clone https://github.com/FaranoshAmini/rails-blog.git
 ### Install
 
 Install this project with:
