@@ -1,11 +1,12 @@
 class Post < ApplicationRecord
   belongs_to :author, class_name: 'User', foreign_key: :author_id
-  has_many :likes, foreign_key: 'author_id'
-  has_many :comments, foreign_key: 'author_id'
+  has_many :likes, foreign_key: 'author_id', dependent: :destroy
+  has_many :comments, foreign_key: 'author_id', dependent: :destroy
+  validates :title, presence: true, length: { maximum: 250 }
+  validates :text, presence: true
   after_save :post_counter_update
-
-  def post_counter_update
-    User.find_by_id(author_id).increment!(:posts_counter)
+  def update_comments_counter
+   update_attribute(:comments_counter, comments.count)
   end
 
   def recent_comments
