@@ -6,7 +6,7 @@ class Post < ApplicationRecord
   validates :text, presence: true
   after_save :post_counter_update
   def update_comments_counter
-   update_attribute(:comments_counter, comments.count)
+    update_attribute(:comments_counter, comments.count)
   end
 
   def recent_comments

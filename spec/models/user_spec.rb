@@ -7,7 +7,7 @@ RSpec.describe User, type: :model do
   it 'recent_posts should return last posts' do
     user = User.create(name: 'Faranosh', posts_counter: 0)
     post = Post.create(author: user, title: 'First Post', comments_counter: 0, likes_counter: 0)
-    post.update_attributes(:updated_at, Time.current)
+    post.update_attribute(:updated_at, Time.current)
     expect(user.recent_posts).to include(post)
   end
 end
