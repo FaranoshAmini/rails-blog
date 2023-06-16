@@ -147,9 +147,9 @@ Feel free to check the [issues page](../../issues/).
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGEMENTS -->
-> I would like to thank Microverse for the project.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
+> I would like to thank Microverse for the project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
