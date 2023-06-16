@@ -123,9 +123,9 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ Add Views ] **[new_feature_1]**
-- [ Add Forms ] **[new_feature_2]**
-- [ Integration specs for Views and fixing n+1 problems] **[new_feature_3]**
+- [ Add Views ]
+- [ Add Forms ] 
+- [ Integration specs for Views and fixing n+1 problems]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
