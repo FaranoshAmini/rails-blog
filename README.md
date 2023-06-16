@@ -123,9 +123,9 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ Add Views ] **[new_feature_1]**
+- [ Add Forms ] **[new_feature_2]**
+- [ Integration specs for Views and fixing n+1 problems] **[new_feature_3]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -142,10 +142,12 @@ Feel free to check the [issues page](../../issues/).
 <!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
+> If you like my project please give the repo a star and share it with your friends
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGEMENTS -->
+> I would like to thank Microverse for the project.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
