@@ -36,5 +36,4 @@ RSpec.describe 'PostsController', type: :request do
       get user_post_path(user_id: @user.id, post_id: @post.id)
       expect(response.body).to include('This is the show action for Posts Controller')
     end
-  end
 end
