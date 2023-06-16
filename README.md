@@ -67,9 +67,6 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
-To get a local copy up and running, follow these steps.
-
 ### Prerequisites
 
 In order to run this project you need:
@@ -113,7 +110,6 @@ Example:
 
 ## 👥 Author <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
 👤 **Faranosh Amini**
 
 - GitHub: [@githubhandle](https://github.com/FaranoshAmini)
@@ -127,7 +123,6 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
 - [ ] **[new_feature_1]**
 - [ ] **[new_feature_2]**
 - [ ] **[new_feature_3]**
@@ -148,17 +143,11 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-If you like this project...
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-> Give credit to everyone who inspired your codebase.
-I would like to thank...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
