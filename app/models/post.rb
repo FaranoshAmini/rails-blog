@@ -12,4 +12,10 @@ class Post < ApplicationRecord
   def recent_comments
     Comment.where(post: self).order(updated_at: :desc).limit(5)
   end
+
+  private
+
+  def post_counter_update
+    author.increment!(:posts_counter)
+  end
 end
